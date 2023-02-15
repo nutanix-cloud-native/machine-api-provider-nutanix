@@ -71,7 +71,7 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.11.0 // indirect
+	github.com/prometheus/client_golang v1.11.1 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
@@ -109,5 +109,7 @@ require (
 )
 
 replace github.com/nutanix-cloud-native/prism-go-client => ../prism-go-client
+
 replace github.com/openshift/api => ../../nutanix-core/cluster-api-openshift-api
+
 replace github.com/openshift/machine-api-operator => ../../openshift/machine-api-operator
