@@ -84,7 +84,7 @@ require (
 	golang.org/x/mod v0.4.2 // indirect
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e // indirect
 	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602 // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d // indirect
 	golang.org/x/text v0.3.6 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
@@ -109,5 +109,7 @@ require (
 )
 
 replace github.com/nutanix-cloud-native/prism-go-client => ../prism-go-client
+
 replace github.com/openshift/api => ../../nutanix-core/cluster-api-openshift-api
+
 replace github.com/openshift/machine-api-operator => ../../openshift/machine-api-operator
